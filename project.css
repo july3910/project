@@ -1,0 +1,90 @@
+body{
+	margin: 0px;
+	background-color: white;
+}
+
+.handle{
+	color: whitesmoke;
+	background-color: #20438f;
+	size: 0px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: whitesmoke 1px;
+}
+
+.drawer{
+	position: relative;
+	width: 100%;
+	max-width: 400px;
+}
+
+.back{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circlecontainer{
+	color: blue;
+	background-color: yellow;
+    overflow: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+	max-width: 400px;
+}
+
+.circle{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin: 20px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	background: red;
+}
+
+
+
+.timer{
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	color: #666;
+	background-color: #eee;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+}
+
+/* blue button */
+
+.btn .btn-blue {
+	background-color: #699DB6;
+	border-color: rgba(0,0,0,0.3);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	color: #FFF;
+}
+
+.btn .btn-blue:hover {
+	background-color: #4F87A2;
+	border-color: rgba(0,0,0,0.5);
+}
+
+.btn .btn-blue:active {
+	background-color: #3C677B;
+	border-color: rgba(0,0,0,0.9);
+}

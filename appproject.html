@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Test App </title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link href="project.css" rel="stylesheet" type="text/css">
+	
+	</head>
+
+	<body>
+
+		<main>
+
+            <div id="container"  class = "container">
+
+                <section id="menu" >
+                    <!--Main menu screen-->
+                    <div class = 'handle'>Play Game</div>
+                    <section class = 'drawer'>
+                            <div class="back btn btn-blue">Back</div>
+                            <div class="timer">60 Seconds</div>
+                            <div class="circlecontainer">
+                                <div class = 'circle-sub-container'>
+                                    <div class="circle"></div>
+                                </div>
+                                <div class = 'circle-sub-container'>
+                                    <div class="circle display-circles"></div>
+                                    <div class="circle display-circles"></div>
+                                    <div class="circle display-circles"></div>
+                                    <div class="circle display-circles"></div>
+                                </div>
+                            </div>
+                    </section>
+                </section>
+
+                <section id="rules" >
+                    <!--rules-->
+                    <div class = 'handle'>Rules</div>
+                    <section class = 'drawer'>
+                        <div class="back btn btn-blue">Back</div>
+                        <p>This game consist of the following rules:
+                            <br>1. Choose the color that its given.
+                            <br>2. Keep up with the game or you will loose.</p>
+                    </section>
+                </section>
+
+                <section id="leaderboard" >
+                    <div class = 'handle'>Leaderboard</div>
+                    <section class = 'drawer'>
+                        <div class="back btn btn-blue">Back</div>
+                        <p> Todays top scorers are:</p>
+                            <br>
+                        <ul>
+                            <li>jman224....800pt</li>
+                            <li>doritoz4...600pts</li>
+                            <li>pcfan404...300pts</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section id="game-over" >
+                    <h1>Game Over</h1>
+                </section>
+
+            </div>
+
+		</main>
+        <!--Load script-->
+        <script src="index.js"></script>
+	</body>
+</html>
